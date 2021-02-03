@@ -153,12 +153,3 @@ confmatrix_naiveb_1
 mean_naiveb <- mean(naiveb_p == test_data$is_attributed)
 mean_naiveb
 
-# Como forma de melhorar meus modelos, acredito que o próximo passo seria fazer 
-# bootstraping
-table(df$is_attributed)
-# Pode-se observar que o número de casos de download são muito menores do que o 
-# número de casos contrários, o que pode influenciar o treinamento do modelo.
-# Não consegui utilizar o comando boot() da biblioteca boot. Não entendi o que 
-# deveria colocar no argumento formula. Esse foi o único método que encontrei ao fazer
-# pesquisas na internet. Agradeceria se pudesse me dar um feedback sobre como fazer
-# bootstraping no R
